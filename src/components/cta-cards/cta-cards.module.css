@@ -1,0 +1,16 @@
+.ctaCard {
+  @apply min-w-[280px] relative rounded-2xl w-full;
+  @apply xl:w-[600px] lg:w-[450px] md:w-[350px];
+}
+
+.ctaCardImage {
+  @apply xl:h-[580px] lg:h-[450px] md:h-[370px] h-[400px];
+}
+
+.ctaCardText {
+  @apply absolute inset-0 xl:p-12 lg:p-10;
+  @apply md:p-8 xl:px-16 xl:py-20 lg:px-12 lg:py-16 md:px-10 py-12 px-6 rounded-2xl;
+  @apply flex flex-col xl:gap-8 gap-5;
+  @apply xl:max-w-[450px] lg:max-w-[350px] md:max-w-[280px] max-w-[320px];
+  @apply text-white;
+}
