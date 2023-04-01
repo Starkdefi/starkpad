@@ -16,7 +16,7 @@
   }
 
   .section-spacing {
-    @apply w-full xl:py-32 md:py-20 py-16 z-0;
+    @apply w-full xl:py-32 py-16 z-0;
   }
 }
 

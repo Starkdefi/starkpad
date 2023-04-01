@@ -1,7 +1,6 @@
 .ctaCard {
   @apply min-w-[280px] relative rounded-3xl w-full;
   @apply xl:h-[590px] lg:h-[450px] md:h-[370px] h-[400px];
-  @apply xl:w-[633px] lg:w-[450px] md:w-[350px];
 }
 
 .container {
