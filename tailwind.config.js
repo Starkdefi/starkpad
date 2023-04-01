@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       fontFamily: {
         ...config.theme.extend.fontFamily,
+        "MBF-Space-regular": ["MBF Space", "sans-serif"],
       },
       colors: {
         ...config.theme.extend.colors,

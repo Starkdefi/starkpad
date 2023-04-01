@@ -48,7 +48,12 @@ export default function CtaCard({
           </p>
 
           {button && (
-            <a href={button?.link} className="flex items-center pt-2">
+            <a
+              href={button?.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center pt-2"
+            >
               <Button
                 btnType="regular-outline"
                 textColor="white"
