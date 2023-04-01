@@ -4,7 +4,7 @@ specifiers:
   '@babel/core': ^7.21.3
   '@babel/preset-env': ^7.20.2
   '@babel/preset-react': ^7.18.6
-  '@starkdefi/starkdefi-components-lib': 1.0.22-beta
+  '@starkdefi/starkdefi-components-lib': 1.0.23-beta
   '@svgr/webpack': ^6.5.1
   '@types/node': 18.15.5
   '@types/react': 18.0.28
@@ -23,7 +23,7 @@ specifiers:
   typescript: 5.0.2
 
 dependencies:
-  '@starkdefi/starkdefi-components-lib': 1.0.22-beta
+  '@starkdefi/starkdefi-components-lib': 1.0.23-beta
   '@types/node': 18.15.5
   '@types/react': 18.0.28
   '@types/react-dom': 18.0.11
@@ -1548,8 +1548,8 @@ packages:
     resolution: {integrity: sha512-sXo/qW2/pAcmT43VoRKOJbDOfV3cYpq3szSVfIThQXNt+E4DfKj361vaAt3c88U5tPUxzEswam7GW48PJqtKAg==}
     dev: false
 
-  /@starkdefi/starkdefi-components-lib/1.0.22-beta:
-    resolution: {integrity: sha512-GuXZCGPS/szqOapXCkQOeit/lzWWUdDX9MUMAUCobt4uZu/zqDP/2E1tyQN3uKUbiK2hrMs3buKnhLP8YiSAFQ==, tarball: download/@starkdefi/starkdefi-components-lib/1.0.22-beta/be92912a5ad92d0930fdb5fc3a2060db5edfb6da}
+  /@starkdefi/starkdefi-components-lib/1.0.23-beta:
+    resolution: {integrity: sha512-vsLcVojDat+jOYBGxs9GNsOtDKc4QPzbaHgEIOoyU9ZwH8R3RLjHJqq13OYQ96qURe1IkZuv2HLNSPjYIp4o2A==, tarball: download/@starkdefi/starkdefi-components-lib/1.0.23-beta/98a8f058a22dc7745ee3c807ffbfb010c94bc4c2}
     dependencies:
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
