@@ -4,6 +4,7 @@ specifiers:
   '@babel/core': ^7.21.3
   '@babel/preset-env': ^7.20.2
   '@babel/preset-react': ^7.18.6
+  '@rive-app/react-canvas': ^3.0.39
   '@starkdefi/starkdefi-components-lib': 1.0.23-beta
   '@svgr/webpack': ^6.5.1
   '@types/node': 18.15.5
@@ -23,6 +24,7 @@ specifiers:
   typescript: 5.0.2
 
 dependencies:
+  '@rive-app/react-canvas': 3.0.39_react@18.2.0
   '@starkdefi/starkdefi-components-lib': 1.0.23-beta
   '@types/node': 18.15.5
   '@types/react': 18.0.28
@@ -1542,6 +1544,19 @@ packages:
       picocolors: 1.0.0
       tiny-glob: 0.2.9
       tslib: 2.5.0
+    dev: false
+
+  /@rive-app/canvas/1.0.103:
+    resolution: {integrity: sha512-P1CSuqge3RgAyFi2lcWe6ghxTho6DkchPYirDVnHkGi8HyhcDBIHh/wHqlcU54pzNvVmrD+5ILJOJXoGODzKjw==}
+    dev: false
+
+  /@rive-app/react-canvas/3.0.39_react@18.2.0:
+    resolution: {integrity: sha512-SDGF3VVWkw+fb+V/g+U6ylUSUNfoTOw5jPpLJCRZoFeU8vNuelo2cCXLoZI2Uu0egIyuZ31k+eB883zzkYd2pA==}
+    peerDependencies:
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0
+    dependencies:
+      '@rive-app/canvas': 1.0.103
+      react: 18.2.0
     dev: false
 
   /@rushstack/eslint-patch/1.2.0:
