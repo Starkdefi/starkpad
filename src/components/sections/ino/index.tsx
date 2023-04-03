@@ -25,7 +25,7 @@ export default function INO() {
           />
         </div>
         <div className="md:w-[45%] w-full flex flex-col xl:gap-5 md:gap-3 gap-3 justify-between md:pb-0 pb-10">
-          <p className="font-MBF-Space-regular text-white xl:text-[35px] lg:text-[24px] md:text-[20px] text-[24px]">
+          <p className="font-MBF-Space-regular text-white xl:text-[35px] lg:text-[24px] md:text-[20px] text-[24px] [-webkit-text-stroke:2px]">
             Launch Your <span className="text-green_light">NFT Collection</span>{" "}
             and Finance your Project with StarkPad
           </p>
