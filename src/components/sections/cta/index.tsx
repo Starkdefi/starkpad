@@ -1,6 +1,6 @@
 import CtaCard, { CtaCardProps } from "@/components/cta-cards";
 import IdoBg from "@/assets/ido-bg.webp";
-import ItoBg from "@/assets/ito-bg.webp";
+import ItoBg from "@/assets/Ito-bg.webp";
 import { classNames } from "@/utils";
 
 const ctas: CtaCardProps[] = [
