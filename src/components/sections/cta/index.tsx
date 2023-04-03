@@ -1,6 +1,6 @@
 import CtaCard, { CtaCardProps } from "@/components/cta-cards";
-import IdoBg from "@/assets/ido-bg.png";
-import ItoBg from "@/assets/ito-bg.png";
+import IdoBg from "@/assets/ido-bg.webp";
+import ItoBg from "@/assets/ito-bg.webp";
 import { classNames } from "@/utils";
 
 const ctas: CtaCardProps[] = [
@@ -9,7 +9,7 @@ const ctas: CtaCardProps[] = [
     description: "A Comprehensive Guide to a Successful Initial DEX Offering",
     button: {
       text: "Apply for IDO",
-      link: "/",
+      link: "https://docs.google.com/forms/d/e/1FAIpQLSd8kQIDW0a7pUD_aja8N3U1M-UTx044fbrtCwWpBRvpwO-BYw/viewform",
     },
     image: {
       src: IdoBg,
@@ -38,7 +38,7 @@ const ctas: CtaCardProps[] = [
 ];
 export default function CTAs() {
   return (
-    <section className="w-full bg-cta-gray xl:py-32 md:py-24 py-16 z-0">
+    <section className="bg-cta-gray section-spacing">
       <div
         className={classNames(
           "apply-spacing flex items-center xl:gap-10 gap-6",
