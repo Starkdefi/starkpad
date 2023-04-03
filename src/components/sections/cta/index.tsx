@@ -9,7 +9,7 @@ const ctas: CtaCardProps[] = [
     description: "A Comprehensive Guide to a Successful Initial DEX Offering",
     button: {
       text: "Apply for IDO",
-      link: "/",
+      link: "https://docs.google.com/forms/d/e/1FAIpQLSd8kQIDW0a7pUD_aja8N3U1M-UTx044fbrtCwWpBRvpwO-BYw/viewform",
     },
     image: {
       src: IdoBg,

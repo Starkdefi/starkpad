@@ -35,7 +35,7 @@ export default function INO() {
             have your own NFT collection up and running with a few simple steps.
           </p>
           <a
-            href="#"
+            href="https://docs.google.com/forms/d/e/1FAIpQLScR0DXvUiIFRLmtuoj6-vtDlvjat8pf5qJWkHEj8edsR2UvLA/viewform"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center mt-4 xl:mt-10 lg:mt-8 md:mt-2 "
