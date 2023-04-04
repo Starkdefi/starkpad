@@ -9,34 +9,33 @@ import Link from "next/link";
 
 function LI({ children }: { children: React.ReactNode }) {
   return (
-    <p className="flex gap-2 items-center xl:text-sm lg:text-xs text-lg">
-      <Tick /> {children}
+    <p className="flex gap-2 md:items-center items-start xl:text-sm lg:text-xs text-base">
+      <Tick className="md:w-5 md:pt-0 w-6 pt-1" /> {children}
     </p>
   );
 }
 
 export default function Hero() {
   return (
-    <section className="w-full p-4">
-      <div className="flex relative xl:h-[90vh] h-[650px] rounded-[40px] overflow-hidden z-0 p-8">
+    <section className="w-full md:p-4 p-2">
+      <div className="flex relative xl:h-[90vh] h-[650px] rounded-[40px] overflow-hidden z-0 md:p-8 py-6 px-4">
         <Image
           fill={true}
           src={HeroBg}
           alt="Hero Background"
           className="border border-white lg:brightness-100 brightness-50"
           style={{ objectFit: "cover", objectPosition: "15% 50%" }}
-          
         />
         <div className="absolute z-10">
           <Link href="/" className=" top-0 left-0 h-fit">
-            <StarkPadLogo className="" />
+            <StarkPadLogo className="md:w-40 w-28" />
           </Link>
         </div>
         <HeroCorner className="absolute top-0 right-0 xl:w-[35vw] lg:w-[38vw] md:w-[50vw] w-[90vw]" />
         <div className="flex z-[1] items-center justify-between xl:px-40 lg:px-20 lg:pt-0 px-3 pt-48 ">
           <div className="lg:w-1/2 lg:block hidden"></div>
           <div className="flex flex-col items-start xl:w-[45%] lg:w-[52%] gap-4 xl:!gap-8 ">
-            <h2 className="text-white font-CeraPro-Bold xl:text-[32px] lg:text-[27px] text-[32px] leading-[140%]">
+            <h2 className="text-white font-CeraPro-Bold xl:text-[32px] lg:text-[27px] md:text-[32px] text-2xl leading-[140%]">
               <span className="text-green_light">
                 Launch your next big idea with StarkPad:
               </span>{" "}
