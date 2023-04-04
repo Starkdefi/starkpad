@@ -99,21 +99,6 @@ export default function Hero() {
           )}
         >
           <a
-            href="https://testnet.starkdefi.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Button
-              className="rounded !px-6"
-              btnType="ringed"
-              backgroundColor="black"
-            >
-              <p className="py-1 xl:w-28 md:w-24 w-20 xl:text-base md:text-sm text-xs text-white">
-                Go to App
-              </p>
-            </Button>
-          </a>
-          <a
             href="https://docs.google.com/forms/d/e/1FAIpQLSd8kQIDW0a7pUD_aja8N3U1M-UTx044fbrtCwWpBRvpwO-BYw/viewform"
             target="_blank"
             rel="noopener noreferrer"
@@ -125,6 +110,21 @@ export default function Hero() {
             >
               <p className="py-1 xl:w-28 md:w-24 w-20 xl:text-base md:text-sm text-xs text-white">
                 Apply for IDO
+              </p>
+            </Button>
+          </a>
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLScR0DXvUiIFRLmtuoj6-vtDlvjat8pf5qJWkHEj8edsR2UvLA/viewform"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Button
+              className="rounded !px-6"
+              btnType="ringed"
+              backgroundColor="black"
+            >
+              <p className="py-1 xl:w-28 md:w-24 w-20 xl:text-base md:text-sm text-xs text-white">
+                Apply for INO
               </p>
             </Button>
           </a>
