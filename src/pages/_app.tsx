@@ -9,7 +9,7 @@ export default function StarkPad({ Component, pageProps }: AppProps) {
         <title>Starkpad | By StarkDefi</title>
         <meta
           name="description"
-          content="Starkpad by StarkDefi: Your one-stop platform for launching and investing in StarkNet projects. Discover the next blue-chip opportunities and kickstart your journey with us."
+          content="Starkpad by StarkDefi: Your one-stop platform for launching and investing in Starknet projects. Discover the next blue-chip opportunities and kickstart your journey with us."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
