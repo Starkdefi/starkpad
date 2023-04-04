@@ -1,5 +1,6 @@
 import Image from "next/image";
 import INObg from "@/assets/ino-bg.webp";
+import INObgMobile from "@/assets/ino-bg-mobile.webp";
 import RiveComponent from "@rive-app/react-canvas";
 import ShootingStar from "@/assets/shooting-star.svg";
 import Button from "@/components/wrapped-button";
@@ -16,7 +17,18 @@ export default function INO() {
           objectPosition: "center",
         }}
         placeholder="blur"
-        className="z-[-1]"
+        className="z-[-1] hidden md:block"
+      />
+      <Image
+        fill={true}
+        src={INObgMobile}
+        alt="INO"
+        style={{
+          objectFit: "cover",
+          objectPosition: "center",
+        }}
+        placeholder="blur"
+        className="z-[-1] md:hidden"
       />
       <div className="apply-spacing flex flex-wrap md:flex-nowrap items-center justify-between gap-5 z-[1]">
         <div className="w-full">
