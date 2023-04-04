@@ -21,7 +21,7 @@ export default function INO() {
       <div className="apply-spacing flex flex-wrap md:flex-nowrap items-center justify-between gap-5 z-[1]">
         <div className="w-full">
           <RiveComponent
-            className="xl:w-[650px] xl:h-[650px] lg:w-[530px] lg:h-[450px] md:w-[350px] md:h-[350px]"
+            className="xl:w-[650px] xl:h-[650px] lg:w-[530px] lg:h-[450px] md:w-[350px] h-[350px]"
             src="./starkdefi_nft_animation.riv"
           />
         </div>
