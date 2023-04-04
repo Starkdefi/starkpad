@@ -28,7 +28,7 @@ const ctas: CtaCardProps[] = [
     ),
     button: {
       text: "Launch",
-      link: "/",
+      link: "https://testnet.starkdefi.com",
     },
     image: {
       src: ItoBg,

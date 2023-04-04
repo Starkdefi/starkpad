@@ -15,6 +15,7 @@ export default function INO() {
           objectFit: "cover",
           objectPosition: "center",
         }}
+        placeholder="blur"
         className="z-[-1]"
       />
       <div className="apply-spacing flex flex-wrap md:flex-nowrap items-center justify-between gap-5 z-[1]">
