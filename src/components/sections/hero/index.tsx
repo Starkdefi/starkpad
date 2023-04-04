@@ -99,7 +99,7 @@ export default function Hero() {
           )}
         >
           <a
-            href="https://docs.google.com/forms/d/e/1FAIpQLSd8kQIDW0a7pUD_aja8N3U1M-UTx044fbrtCwWpBRvpwO-BYw/viewform"
+            href="https://docs.google.com/forms/d/1F3NxMECv9pjfsytuQ-YVBxRFsVibixrs1T1wMqZY5QY/viewform"
             target="_blank"
             rel="noopener noreferrer"
           >
