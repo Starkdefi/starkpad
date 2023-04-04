@@ -26,7 +26,7 @@ export default function Benefits() {
       <div className="apply-spacing flex flex-col xl:gap-20 gap-16">
         <p className="xl:w-1/2 md:w-3/5 xl:text-[32px] lg:text-[28px] md:text-[24px] text-[30px]">
           Our platform connects founders with investors. Fund your venture
-          through StarkPad and kickstart your StarkNet journey.
+          through StarkPad and kickstart your Starknet journey.
         </p>
         <div className="w-full flex md:flex-nowrap flex-wrap justify-between gap-8 pb-10">
           {features.map((feature, i) => (
