@@ -24,7 +24,7 @@ export default function VestingBanner() {
               "xl:leading-[55px] lg:leading-[45px] md:leading-[36px] leading-[140%]"
             )}
           >
-            Vest your way to the next generation of StarkNet startups
+            Vest your way to the next generation of Starknet startups
           </p>
           <p
             className={classNames(
