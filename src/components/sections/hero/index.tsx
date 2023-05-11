@@ -56,7 +56,7 @@ export default function Hero() {
           <div
             className={classNames(
               "flex flex-col items-start lg:justify-start justify-between",
-              "w-full xl:!w-[451px] lg:!w-[375px] gap-5 xl:!gap-8 pt-[2em] lg:h-auto h-full"
+              "w-full xl:!w-[451px] lg:!w-[385px] gap-5 xl:!gap-8 pt-[2em] lg:h-auto h-full"
             )}
           >
             <h2
@@ -81,8 +81,13 @@ export default function Hero() {
               </p>
               <div
                 className={classNames(
-                  "bg-white font-CeraPro-Medium text-black text-sm flex flex-col md:gap-4 gap-3",
-                  "md:rounded-[20px] rounded-[10px] xl:py-7 xl:px-6 md:py-5 md:px-4 p-3 lg:!w-fit w-full"
+                  "font-CeraPro-Medium text-white text-sm flex flex-col xl:!gap-5 md:!gap-4 gap-3",
+                  "bg-gradient-to-r from-[#121416] to-[#161a1e]",
+                  "lg:bg-gradient-to-r lg:from-[#111111] lg:to-[#0d0b0a]",
+                  "md:rounded-[20px] rounded-[10px] xl:py-7 xl:px-6 md:py-5 md:px-4 p-3 lg:!w-fit w-full",
+                  "border-2 border-transparent relative",
+                  "before:content-[''] before:-z-[1] before:-m-[3px] before:rounded-[inherit]",
+                  "before:absolute before:inset-0 before:bg-gradient-to-r before:from-white before:via-transparent before:to-transparent"
                 )}
               >
                 <LI> Accelerate your growth with our launch partners</LI>
