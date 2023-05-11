@@ -19,7 +19,7 @@ function LI({ children }: { children: React.ReactNode }) {
 export default function Hero() {
   return (
     <section className="w-full md:p-4 p-2">
-      <div className="flex relative lg:h-[95vh] md:h-[80vh] h-[95vh] rounded-[40px] overflow-hidden z-0 md:p-8 md:py-6 py-6 px-4">
+      <div className="flex relative max-h-[900px] lg:h-[95vh] md:h-[80vh] h-[95vh] rounded-[40px] overflow-hidden z-0 md:p-8 md:py-6 py-6 px-4">
         <Image
           fill={true}
           src={HeroBg}
